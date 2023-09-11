@@ -1,0 +1,9 @@
+{
+    "name": "alexmpereiradev/loadbalancer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Unialfa\\": "src/"
+        }
+    }
+}

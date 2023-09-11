@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+  php-um:
+    container_name: php-um
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www
+    ports:
+      - "8098:9000" # Ajuste a porta conforme necessário
+    networks:
+      - unialfa
+
+  php-dois:
+    container_name: php-dois
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www
+    ports:
+      - "8099:9000" # Ajuste a porta conforme necessário
+    networks:
+      - unialfa
+
+  server:
+    container_name: meu-nginx-container
+    build:
+      context: .docker/server
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - .docker/server/logs/:/var/log/nginx/
+      - ./:/var/www:cached
+    networks:
+      - unialfa
+    links:
+      - php-um
+      - php-dois
+    restart: always
+    tty: true
+
+networks:
+  unialfa:
+    name: unialfa
+    driver: bridge

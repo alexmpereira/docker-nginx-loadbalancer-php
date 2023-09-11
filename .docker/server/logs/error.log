@@ -1,0 +1,30 @@
+2023/09/06 20:29:24 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:29:24 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:29:24 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:29:24 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:29:24 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:29:24 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:29:24 [error] 7#7: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend_servers/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/09/06 20:29:46 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:29:46 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:29:46 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:29:46 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:29:46 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:29:46 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:29:46 [error] 7#7: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend_servers/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/09/06 20:35:41 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.23.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:35:41 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.23.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:35:41 [error] 7#7: *1 no live upstreams while connecting to upstream, client: 172.23.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend_servers/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/09/06 20:38:19 [error] 7#7: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.23.0.2:8099/", host: "localhost:8080"
+2023/09/06 20:38:19 [error] 7#7: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.23.0.3:8098/", host: "localhost:8080"
+2023/09/06 20:38:19 [error] 7#7: *5 no live upstreams while connecting to upstream, client: 172.23.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend_servers/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/09/06 20:57:04 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:06 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:09 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:12 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:17 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:23 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:29 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/06 20:57:37 [emerg] 1#1: invalid parameter "wight=2" in /etc/nginx/nginx.conf:8
+2023/09/11 13:38:00 [emerg] 1#1: host not found in upstream "php-um:9000" in /etc/nginx/nginx.conf:8
+2023/09/11 13:38:09 [emerg] 1#1: host not found in upstream "php-um:9000" in /etc/nginx/nginx.conf:8
